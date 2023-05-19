@@ -46,6 +46,10 @@ input {
     cursor: pointer;
     margin: 20px 70px 30px;
 }
+.last{
+    display: flex;
+    justify-content: space-around;
+}
 .last p{
     font-size: 12px;
     border-radius: 10px;
@@ -58,4 +62,14 @@ input {
     text-decoration: none;
     font-weight: bolder;
     color: blue;
+}
+.signback{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.signback span a{
+text-decoration: none;
+font-weight: bolder;
 }
